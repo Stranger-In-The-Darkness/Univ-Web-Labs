@@ -1,0 +1,19 @@
+﻿body
+{
+}
+
+div {
+    border: 10px solid;
+    border-color: aquamarine;
+    background-color: aliceblue;
+    padding: 5px;
+    width: 400px;
+}
+
+.input {
+    display: inline;
+}
+
+img {
+    border-style: solid;
+}
