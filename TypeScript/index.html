@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Hello Angular 5</title>
+</head>
+<body>
+    <div> <!--ng-app="AppModule" ng-controller="myCtrl"-->
+        <my-app>Завантаження...</my-app>
+    </div>
+    <script src="public/polyfills.js"></script>
+    <script src="public/app.js"></script>
+
+    <!--<script>
+        function onLoaded() {
+            var app = angular.module('AppModule', []);
+            app.controller('myCtrl', function ($scope) {
+                $scope.a = 0;
+                $scope.b = 0;
+                $scope.c = 0;
+                $scope.res = '';
+                $scope.computeRoots = function () {
+                    var D = $scope.b * $scope.b - 4 * $scope.a * $scope.c;
+                    if (D > 0) {
+                        $scope.res += String((-$scope.b - Math.sqrt(D)) / (2 * $scope.a));
+                        $scope.res += ' ';
+                        $scope.res += String((-$scope.b + Math.sqrt(D)) / (2 * $scope.a));
+                    }
+                    else if (D === 0) {
+                        $scope.res = -$scope.b / (2 * $scope.a);
+                    }
+                    else {
+                        $scope.res = 'No real roots :(';
+                    }
+                    alert($scope.res);
+                }
+            });
+        }
+    </script>-->
+</body>
+</html>
